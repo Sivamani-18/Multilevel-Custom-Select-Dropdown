@@ -1,0 +1,32 @@
+.custom-select {
+  position: relative;
+  width: 200px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.selected-item {
+  border: 1px solid #ccc;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  z-index: 1;
+}
+
+.menu-item {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: #ccc;
+}
